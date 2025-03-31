@@ -1,0 +1,7 @@
+# yolov10_config.yaml
+
+train: "C:/Do_an/dataset/images/train"  # Đường dẫn đến thư mục chứa ảnh huấn luyện
+val: "C:/Do_an/dataset/images/val"      # Đường dẫn đến thư mục chứa ảnh kiểm tra
+
+nc: 2                        # Số lượng lớp
+names: [ 'good', 'bad' ]     # Tên của các lớp
